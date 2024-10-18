@@ -29,3 +29,5 @@ def main():
 
     df = open_file(file_path)
     print(df.head())
+
+    main()
