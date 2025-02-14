@@ -38,7 +38,7 @@ import xgboost as xgb
 import shap
 
 # XSmiles: https://github.com/mahmoudnafifi/xsmiles
-import xsmiles
+#import xsmiles
 
 # JSON: https://docs.python.org/3/library/json.html
 import json
