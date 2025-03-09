@@ -12,8 +12,7 @@ import numpy as np
 
 # Scikit-learn: https://scikit-learn.org
 from sklearn.pipeline import Pipeline
-from sklearn.model_selection import (train_test_split, GridSearchCV, StratifiedKFold, 
-                                     RandomizedSearchCV)
+from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold, RandomizedSearchCV
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.metrics import (accuracy_score, confusion_matrix, classification_report, 
                              roc_curve, roc_auc_score)
@@ -65,3 +64,13 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+
+from sklearn.linear_model import Lasso
+import numpy as np
+
+from sklearn.linear_model import LogisticRegression
+import optuna
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import accuracy_score, log_loss
+from sklearn.metrics import accuracy_score, roc_curve, auc
+from sklearn.model_selection import learning_curve
