@@ -12,7 +12,7 @@ This repository focuses on building QSAR models to predict skin irritation using
 
 Key features include:
 
-- Automated calculation of molecular descriptors and fingerprints.
+- Automated calculation of molecular descriptors.
 - Support for handling invalid SMILES strings and missing data.
 - Implementation of multiple machine learning algorithms for classification.
 - Tools for evaluating model performance with detailed metrics.
