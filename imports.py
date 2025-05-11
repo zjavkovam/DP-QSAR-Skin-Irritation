@@ -28,6 +28,8 @@ from sklearn.metrics import (
     precision_score, recall_score, f1_score,
     roc_curve, auc, log_loss, roc_auc_score
 )
+
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_predict, learning_curve, validation_curve
 from sklearn.preprocessing import (
     MinMaxScaler, FunctionTransformer, LabelEncoder,
     PowerTransformer, QuantileTransformer
